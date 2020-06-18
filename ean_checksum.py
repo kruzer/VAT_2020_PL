@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-def main():
+def ean_checksum():
     import sys
     for line in sys.stdin:
         fields = line.rstrip().split(',')
@@ -21,4 +21,4 @@ def validateCheckDigit(bar):
     return False
 
 if __name__ == "__main__":
-    main()
+    ean_checksum()

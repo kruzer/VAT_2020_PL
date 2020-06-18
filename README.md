@@ -22,6 +22,10 @@ Z repozytorium można pobrać gotowy plik VAT2020.csv, albo sklonować całe rep
 ./generuj.sh
 ```
 co stworzy plik VAT2020.csv, który można zaimportować do swojego systemu.
+Jeśli w źródłach znajdują się te same kody z różnymi stawkami, to pozycje te można podejrzeć komendą:
+```
+./pokaz_bledy.sh
+```
 ## Źródła danych
 Dane pochodzą z plików udostępnionych w różnych miejscach (np. http://www.symplex.eu/?q=node/465) i nadsyłanych przez użytkowników
 Jeśli masz zweryfikowane dane zawierające nowe stawki dla kodów EAN możesz je przesłać mailem na lnt @ 3lance.pl albo zrobić pull request.
