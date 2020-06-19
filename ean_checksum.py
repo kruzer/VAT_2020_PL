@@ -5,7 +5,7 @@ def ean_checksum():
         fields = line.rstrip().split(',')
         if len(fields) >= 2:
             if validateCheckDigit(fields[0]):
-                if fields[1] in ['5%','8%','23%']:
+                if fields[1] in ('5%','8%','23%'):
                     print(line.rstrip())
 
 

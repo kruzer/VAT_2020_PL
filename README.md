@@ -29,5 +29,7 @@ Jeśli w źródłach znajdują się te same kody z różnymi stawkami, to pozycj
 ## Źródła danych
 Dane pochodzą z plików udostępnionych w różnych miejscach (np. http://www.symplex.eu/?q=node/465) i nadsyłanych przez użytkowników
 Jeśli masz zweryfikowane dane zawierające nowe stawki dla kodów EAN możesz je przesłać mailem na lnt @ 3lance.pl albo zrobić pull request.
+
+Obecny plik VAT2020.csv zawiera 66849 (kodów) pozycji
 ## Zastrzeżenia
 Zebrane tutaj stawki pochodzą z różnych źródeł i mogą zawierać błędy, możesz z nich korzystać tylko na własną odpowiedzialność
